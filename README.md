@@ -24,3 +24,31 @@ pip install -r requirements.txt
 
 # Launch the notebook
 jupyter notebook rock_paper_scissors.ipynb
+```
+---
+
+## Controls
+
+- ESC → Exit the game
+- Show Rock, Paper, or Scissors hand gesture in the webcam ROI
+
+---
+
+## How it Works
+
+- The game detects your hand using OpenCV.
+- Counts fingers to determine Rock (0), Paper (5), or Scissors (2).
+- Plays against a random computer choice and updates the score.
+
+---
+
+## Technologies Used
+
+- Python 3
+- OpenCV
+- NumPy
+- scikit-learn
+- Jupyter Notebook
+
+---
+
